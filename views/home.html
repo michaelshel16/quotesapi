@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes API</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Quotes API</h1>
+    <p>Use the following endpoints to get quotes:</p>
+    <ul>
+        <li><a href="/quotes">/quotes</a> - returns all quotes</li>
+        <li><a href="/quotes/random">/quotes/random</a> - returns a random quote</li>
+        <li><a href="/quotes/search">/quotes/search</a> - returns quotes that match the query</li>
+    </ul>
+</body>
+</html>
